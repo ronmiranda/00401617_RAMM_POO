@@ -22,5 +22,9 @@ public class Main {
 
 
         }
+        if(palindromo)
+            System.out.println("Es Palindromo");
+        else
+            System.out.println("No es Palindromo");
 }
 }
