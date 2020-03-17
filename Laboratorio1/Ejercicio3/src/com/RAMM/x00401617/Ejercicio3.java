@@ -1,6 +1,6 @@
 package com.RAMM.x00401617;
 
-public class Main {
+public class Ejercicio3 {
     public void imprimir(int n){
         if(n>0){
             imprimir(n-1);
