@@ -15,6 +15,12 @@ public class Main {
                 x=1;
                 y=1;
             }
+            else{
+                solucion=x+y;
+                System.out.print(solucion+",");
+                x=y;
+                y=solucion;
+            }
 
         }
     }
