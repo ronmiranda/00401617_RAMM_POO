@@ -9,5 +9,13 @@ public class Main {
 
         System.out.print("Ingrese la cantidad de numeros a calcular:");
         int n=sca.nextInt();
+        for (int i = 1; i <n+1; i++) {
+            if(i==1||i==2){
+                System.out.print("1,");
+                x=1;
+                y=1;
+            }
+
+        }
     }
 }
