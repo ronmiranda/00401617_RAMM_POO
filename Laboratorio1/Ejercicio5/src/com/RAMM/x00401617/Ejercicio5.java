@@ -47,6 +47,10 @@ public class Ejercicio5 {
                 default:
                     break;
             }
+            System.out.println("Las vocales que contiene la frase son:");
+            for(Object vocal:lista){
+                System.out.print(vocal+"-");
+            }
         }
     }
 }
