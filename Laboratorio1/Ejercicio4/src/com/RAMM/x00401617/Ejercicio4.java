@@ -8,5 +8,8 @@ public class Ejercicio4 {
         // write your code here
         Scanner sca=new Scanner(System.in);
         String sTexto="";
+        
+        System.out.println("Escribe una cadena de texto");
+        sTexto=sca.nextLine();
     }
 }
