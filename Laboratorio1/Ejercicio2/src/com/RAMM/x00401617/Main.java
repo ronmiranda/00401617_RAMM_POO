@@ -13,5 +13,14 @@ public class Main {
         int ini=0;
         int fin=frase.length()-1;
         boolean palindromo=true;
+        while(ini<fin){
+            if(frase.charAt(ini)!=frase.charAt(fin)){
+                palindromo=false;
+            }
+            ini++;
+            fin--;
+
+
+        }
 }
 }
